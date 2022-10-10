@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+         "name":"sneaker 1",
+         "image":"https://source.unsplash.com/random/900×700/?shoes"
+    },
+    {
+        "id":2,
+         "name":"sneaker 2",
+         "image":"https://source.unsplash.com/random/900×700/?shoes"
+    },
+    {
+        "id":3,
+        "name":"sneaker 3",
+        "image":"https://source.unsplash.com/random/900×700/?shoes"
+    }
+]

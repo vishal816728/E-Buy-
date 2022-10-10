@@ -1,0 +1,213 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.navbarRightSideuser{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align: start;
+  margin-right:1.25rem;
+}
+.linknavbarstyle{
+  text-decoration: none;
+  color: #282c34;
+  margin-left: 1rem;
+}
+
+.linknavbarstyle:hover{
+color: #282c34;
+transform: scale(1.05);
+transition: all 0.5s ease-in;
+}
+
+@media(max-width:1000px){
+  #basic-navbar-nav{
+     text-align: start;
+  }
+  .linknavbarstyle{
+    padding-top: 0.5rem;
+    margin-left: 0;
+  }
+  .linknavbarstyle:hover{
+    color: #282c34;
+    transform: scale(0.98);
+    transition: all 0.75s ease-in;
+    }
+  
+}
+
+.navbarStyles{
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  border-radius: 1rem;
+  box-shadow: 8px 15px 50px rgba(0,0,0,0.1);
+}
+
+.navbariconimage{
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 100%;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+.FormMainContainer{
+    /* border: 1px solid red; */
+    background-image: url('./images/abstract_background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7.5rem;
+    margin-bottom: 7.5rem;
+}
+.googleloginbtn{
+  border: none;
+  text-align: center;
+}
+
+.SignupFormMainContainer{
+  background-image: url('./images/abstract_background.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+  
+  .ContactFormMainContainer{
+    background-image: url('./images/abstract_background.jpg');
+    background-size: cover;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .popoverContainer{
+      /* border:1px solid red; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 2rem;
+  }
+
+  .popoverbtn{
+    margin-top: 1rem;
+    border: 1px solid rgba(0,0,0,0.25);
+    padding: 0.5rem 2rem;
+}
+.popoverbtn:hover{
+    border-radius: 10px;
+    background-color: rgba(255,0,0,0.6);
+    color: azure;
+    /* opacity: 0.5; */
+}
+
+.profileContainer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 1.2rem 0rem;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.ProfilePageMainContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border:1px solid rgba(0,0,0,0.1);
+  border-radius: 25px;
+}
+
+.profilepagecardcontainer{
+    border:1px solid red;
+    padding: 2rem;
+    border-radius: rgba(0,0,0,0.1);
+    margin: 2rem;
+    border:1px solid rgba(0,0,0,0.2);
+  border-radius: 25px;
+}
+
+.profilepagebtn{
+  margin-top: 1rem;
+  border: 1px solid rgba(0,0,0,0.25);
+  padding: 0.5rem 2rem;
+}
+.profilepagebtn:hover{
+  border-radius: 10px;
+  background-color: rgba(255,0,0,0.6);
+  color: azure;
+  /* opacity: 0.5; */
+}
+
+.homecontainertextcolor{
+  color:#282c34;
+}
+.homecontainertextcolor:hover{
+  color: #282c34;
+}
+
+.topmostbanner{
+    background-position: center center;
+}
+.topmostbanner img{
+  width: 100%;
+  height: auto;
+}
